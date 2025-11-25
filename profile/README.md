@@ -116,7 +116,6 @@ ERD 이미지 파일 추가 예정
 - Kubernetes  
 - Docker  
 - GitHub Actions  
-- Prometheus / Grafana (선택)  
 
 ---
 
