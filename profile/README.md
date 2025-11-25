@@ -94,8 +94,8 @@ ERD 이미지 파일 추가 예정
 
 | 영역                       | 기술                                                                        |
 | ------------------------ | ------------------------------------------------------------------------- |
-| Frontend(Android)    | Java, Retrofit, OkHttp, Hilt, Security Crypto, MVVM(ViewModel & LiveData) |
-| Backend(Spring Boot) | Java 21, Spring Boot 3.5, JPA, Security, JWT, Redis, PostgreSQL           |
+| Frontend             | Java, Retrofit, OkHttp, Hilt, Security Crypto, MVVM(ViewModel & LiveData) |
+| Backend              | Java 21, Spring Boot 3.5, JPA, Security, JWT, Redis, PostgreSQL           |
 | AI Server            | FastAPI, Python, Ollama, qwen2.5 모델, Hybrid Search, PostgreSQL            |
 | Database             | PostgreSQL, Redis                                                         |
 | Infra / DevOps       | Docker, Kubernetes(NKS), NCR, GitHub Actions CI/CD                        |
