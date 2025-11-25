@@ -73,4 +73,98 @@ FilterFacts는 SNS, 쇼핑몰, 커뮤니티에서 유통되는 광고 문구가
 ---
 
 ## 🏛 서비스 아키텍처
+Android App
+↓
+Spring Boot Backend ────── PostgreSQL / Redis
+↓
+AI Server (FastAPI + Ollama)
+↓
+MFDS Vector DB (pgvector + pg_trgm)
 
+
+---
+
+# 🛠 기술 스택
+
+## 📱 **Android (Frontend)**
+- Java
+- Retrofit / OkHttp / Gson
+- Hilt (DI)
+- EncryptedSharedPreferences
+- MVVM (ViewModel, LiveData)
+- Material Design Components
+
+---
+
+## 🧩 **Backend (Spring Boot)**
+- Java 21  
+- Spring Boot 3.5.4  
+- Spring Security + JWT  
+- Spring Data JPA  
+- Spring Web / WebFlux  
+- Redis (Refresh Token)  
+- PostgreSQL  
+- Spring Mail (SMTP)
+
+---
+
+## 🤖 **AI Server (FastAPI + Hybrid Search)**
+- FastAPI  
+- PostgreSQL  
+- Ollama  
+- Embedding: `nomic-embed-text`  
+- LLM: `qwen2.5-1.5b-instruct-q4_K_M`  
+- Hybrid Search (pgvector + trigram)  
+- Evidence Ranking System  
+- Structured Logging + PII Redaction  
+
+---
+
+## 🏗 **Infrastructure / DevOps**
+- Naver Cloud Platform (NCP)
+- NKS (Kubernetes Service)
+- NCR (Container Registry)
+- GitHub Actions CI/CD  
+- Docker / Docker Compose  
+- Kubernetes Deployment YAML  
+
+---
+
+# ⚙ 설치 및 실행
+
+## 🟦 Backend 실행
+```bash
+./gradlew clean build
+java -jar build/libs/app.jar
+
+🟩 Android
+
+Android Studio에서 실행
+
+baseUrl 을 Backend 주소로 설정
+
+👥 팀원 소개
+
+Android Developer
+
+Backend Developer
+
+AI Developer
+
+DevOps / Infra Engineer
+
+📄 문서 자료
+
+발표자료 PDF
+
+ERD
+
+아키텍처 Diagram
+
+MFDS 데이터 정리 문서
+
+🎯 프로젝트 핵심 요약
+
+FilterFacts는
+“건강 광고 문구가 사실인지 AI가 과학적 근거로 검증해주는 서비스”
+입니다.
