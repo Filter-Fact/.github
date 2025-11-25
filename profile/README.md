@@ -82,8 +82,8 @@ ERD 이미지 파일 추가 예정
 
 ## 7. 팀원 소개
 
-| 이름 | 역할 | 담당 |
-|------|------|------|
+| 이름 | 담당 |
+|------|------|
 | **이성원** | Android 앱 개발, UI/UX, Retrofit 통신 |
 | **김현수** | Backend API(회원, 채팅), AI 서버, RAG 파이프라인, MFDS 데이터 처리 |
 | **조현우** | Backend API(공공 데이터), Kubernetes(NKS), Docker, GitHub Actions |
