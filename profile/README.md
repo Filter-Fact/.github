@@ -58,7 +58,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ## 3. 기능 명세서
 문서 링크 추가 예정  
-<img src="./assets/기능흐름도.png" width="600">
+<img src="./assets/기능흐름도.png" width="700">
 
 ---
 
@@ -70,13 +70,15 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ## 5. DB 명세서
 ERD 이미지 파일 추가 예정  
-예: `docs/erd.png`
+<img src="./assets/ERD.PNG" width="700">
 
 ---
 
 ## 6. 서비스 아키텍처
 아키텍처 다이어그램 추가 예정  
-예: `docs/architecture.png`
+<img src="./assets/시스템아키텍처(어플리케이션)" width="700">
+
+<img src="./assets/시스템아키텍처(CI, CD)" width="700">
 
 ---
 
