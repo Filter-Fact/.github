@@ -58,6 +58,10 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ## 3. 기능 명세서 
 <img src="./assets/기능흐름도.png" width="700">
+<a href="https://www.notion.so/2a985bcdbd268049a3e5f97a80b1d204" 
+   style="display:inline-block;padding:10px 20px;background:#007bff;color:white;border-radius:8px;text-decoration:none;font-weight:bold;">
+    기능 명세서 보러가기
+</a>
 
 ---
 
@@ -65,7 +69,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 <a href="https://www.notion.so/Api-2a985bcdbd2680b2bab1db957fe89c91" 
    style="display:inline-block;padding:10px 20px;background:#007bff;color:white;border-radius:8px;text-decoration:none;font-weight:bold;">
-   👉 API 명세서 보러가기
+   API 명세서 보러가기
 </a>
 
 
