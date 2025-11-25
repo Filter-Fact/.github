@@ -58,7 +58,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ## 3. 기능 명세서
 문서 링크 추가 예정  
-<img src="profile/assets/기능흐름도.png" width="600">
+<img src="./assets/기능흐름도.png" width="600">
 
 ---
 
