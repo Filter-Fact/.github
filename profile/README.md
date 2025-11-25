@@ -62,7 +62,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 ---
 
 ## 4. API 명세서
-<a href="https://www.notion.so/Api-2a985bcdbd2680b2bab1db957fe89c91">
+<a href="https://www.notion.so/Api-2a985bcdbd2680b2bab1db957fe89c91"> API 명세서 </a>
 ---
 
 ## 5. DB 명세서 
