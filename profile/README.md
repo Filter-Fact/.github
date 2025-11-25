@@ -7,107 +7,156 @@
 
 ---
 
-# 1. 프로젝트 개요
+1. 프로젝트 개요
+📌 프로젝트 명
 
-Filter&Facts는 건강기능식품·화장품 광고 문구를 AI가 분석하여  
-**과대·허위 광고 여부를 자동으로 검증하는 AI 기반 서비스**입니다.
+Filter&Facts — AI 기반 과대·허위 광고 검증 서비스
 
-광고 문구를 입력하면  
-- 실제 식약처 MFDS 기능성 자료  
-- 개별인정형 원료 정보  
-- 제품 성분·효능 정보  
-- RAG 기반 문헌 검색  
+📅 프로젝트 기간
 
-을 기반으로 **"판단 + 근거"를 제공하여 소비자가 올바른 판단을 할 수 있도록 돕습니다.**
+2025년 6월 ~ 2025년 9월
 
----
+🎯 프로젝트 목표
 
-# 2. 프로젝트 소개
+AI 기반으로 허위·과대 광고 여부를 자동 판단
 
-광고 시장이 급속도로 성장함에 따라  
-허위·과장 광고로 인한 소비자 피해도 증가하고 있습니다.  
-Filter&Facts는 다음을 해결합니다:
+식약처 기준 및 제품 성분 데이터 기반의 객관적 근거 제공
 
-- 객관적 정보 없이 주장만 가득한 광고  
-- 소비자 스스로 검증하기 어려운 전문 용어  
-- 제품 성분과 고시 기능의 연관성 확인의 어려움
+소비자가 쉽게 활용할 수 있는 모바일 검증 도구 제공
 
-AI 기반의 RAG(검색증강생성) 기술과  
-정규화된 식약처 데이터베이스를 활용하여  
-**신뢰 가능한 근거 기반 AI 판단 시스템**을 제공합니다.
+광고 시장의 정보 불균형 해소 및 소비자 피해 예방
 
----
+🎯 주요 타겟 사용자
 
-# 3. 프로젝트 목표
+건강기능식품, 화장품 구매 전에 성분을 확인하고 싶은 소비자
 
-- 🔍 **광고 문구의 과대·허위 가능성 자동 검출**
-- 📚 **식약처 고시·제품 성분 기반의 근거 제공**
-- 🤖 **LLM이 AI 전문가처럼 판단을 요약해주는 서비스**
-- 📱 **누구나 쉽게 모바일 앱에서 검증할 수 있도록 구현**
-- 🧩 **AI·백엔드·안드로이드·인프라 통합 서비스 구축**
+광고 정보를 검증하고 싶은 일반 사용자
 
----
+SNS 광고·AI 생성 광고에 회의감을 가진 사용자
 
-# 4. 주요 기능
+고령층·전문 지식 부족으로 인해 피해를 보기 쉬운 사용자
 
-### ✔ AI 허위·과대광고 자동 검증
-- LLM + RAG 기반 판단
-- MFDS 기능성·제품 성분 매칭
-- "요약·판단·근거" 출력 템플릿 제공
+2. 프로젝트 소개
+🧩 프로젝트 배경
+▸ 문제 상황
 
-### ✔ 광고 문구 입력 / 결과 제공
-- 광고 한 줄 입력하면 AI가 자동 분석
-- 관련 원료-기능성 근거 및 제품 근거 반환
+(아래 이미지는 너가 제공한 자료 기반)
 
-### ✔ 대화형 Q&A 챗봇
-- 사용자의 대화를 저장하고 다시 불러오기 가능
-- 질문별로 AI 분석 결과 제공
+📸 허위 광고 및 과대 광고 관련 문제 상황
+(이미지 첨부 예정)
 
-### ✔ 회원가입·로그인·토큰 인증
-- JWT Access/Refresh Token 기반 인증
+예시:
 
-### ✔ 전체 서비스 자동 배포
-- GitHub Actions → Naver Cloud NKS → Docker → k8s/backend-deploy.yaml 자동 배포
+허위·과대 건강 제품 마케팅 증가
 
----
+SNS·인플루언서 기반 검증되지 않은 광고 확산
 
-# 5. 팀원 소개
+AI 생성 가짜 의사 영상·가짜 전문가 인터뷰 등 조작된 광고 증가
 
-| 이름 | 역할 | 담당 업무 |
-|------|------|-----------|
-| **이성원** | 👨‍💻 Android 개발자 | Android 앱 개발, UI/UX, Retrofit 통신 |
-| **김현수** | 🧑‍💻 백엔드 & RAG 모델 개발 | Spring Boot API, RAG 모델, 데이터 파이프라인 |
-| **조현우** | 👨‍💼 백엔드 & CI/CD·인프라 구축 | Backend, Kubernetes, Docker, GitHub Actions, NCP 인프라 |
+건강기능식품 오해 야기 → 소비자 금전적 피해 지속 증가
 
----
+▸ 기존 서비스의 문제점
 
-# 6. 기술 스택
+광고 문구에 대한 AI 기반 검증 기능 부재
 
-| 영역                       | 기술                                                                        |
-| ------------------------ | ------------------------------------------------------------------------- |
-| **Frontend(Android)**    | Java, Retrofit, OkHttp, Hilt, Security Crypto, MVVM(ViewModel & LiveData) |
-| **Backend(Spring Boot)** | Java 21, Spring Boot 3.5, JPA, Security, JWT, Redis, PostgreSQL           |
-| **AI Server**            | FastAPI, Python, Ollama, qwen2.5 모델, Hybrid Search, PostgreSQL            |
-| **Database**             | PostgreSQL, Redis                                                         |
-| **Infra / DevOps**       | Docker, Kubernetes(NKS), NCR, GitHub Actions CI/CD                        |
-| **Logging/Monitoring**   | Structured Logging, Debug toggles, PII Redaction                          |
+성분·효능 정보를 직접 연결해주는 서비스 부족
 
+과대광고 판단 기준을 사용자가 직접 찾아서 비교해야 함
 
----
+단순 정보 제공 앱은 많지만 정확한 “판단 + 근거”까지 제공하는 앱이 없음
 
-# 7. 문서 자료
+🎯 프로젝트 목표
 
-### 📌 ERD 문서
-- (이미지/링크 첨부)
+Filter&Facts는 아래 목표를 기반으로 제작됨:
 
-### 📌 기능 명세서
-- (Notion/Google Docs 링크)
+AI 기반 허위·과장 가능성 판단 자동화
 
-### 📌 API 명세서
-- (Notion/Swagger/Google Docs 링크)
+MFDS 고시·개별인정 원료 기반 근거 중심 분석
 
-### 📌 시스템 아키텍처
-- (아키텍처 다이어그램 이미지/링크)
+제품 성분과 기능성 정보를 자동 매핑
+
+신뢰성 있는 결과 제공으로 소비자 피해 예방
+
+모바일 환경에서도 간편한 검증 흐름 제공
+
+3. 기능 명세서
+
+📄 기능 명세서 링크:
+(노션 / 구글 문서 링크 첨부 예정)
+
+4. API 명세서
+
+📄 API 명세서 링크:
+(Notion / Swagger 링크 첨부 예정)
+
+5. DB 명세서
+
+📸 ERD 이미지 첨부:
+(GitHub 업로드 후 경로 연결 예정)
+예:
+docs/erd.png
+
+6. 서비스 아키텍처
+
+📸 아키텍처 다이어그램 첨부:
+(GitHub 업로드 후 경로 연결 예정)
+예:
+docs/architecture.png
+
+7. 팀원 소개
+이름    역할    담당
+이성원    Android 개발자    Android 앱 개발, UI/UX, Retrofit 통신
+김현수    백엔드 & RAG 모델 개발자    Spring Boot 서버, AI 서버, RAG pipeline, MFDS 데이터 처리
+조현우    백엔드 & 인프라/CI/CD 구축    Backend API, Kubernetes(NKS), Docker, GitHub Actions
+8. 기술 스택
+🟦 프론트엔드(Android)
+
+Kotlin
+
+MVVM Architecture
+
+Retrofit / OkHttp
+
+Coroutine / Flow
+
+Android Jetpack
+
+🟩 백엔드
+
+Java 21
+
+Spring Boot 3
+
+Spring Security / JWT
+
+JPA / Hibernate
+
+🟨 데이터베이스
+
+PostgreSQL
+
+Redis
+
+pgvector
+
+MFDS 데이터 정규화 파이프라인
+
+🟥 인프라 / DevOps
+
+Naver Cloud Platform (VPC, NKS, NCR)
+
+Kubernetes
+
+Docker
+
+GitHub Actions CI/CD
+
+Prometheus / Grafana(Optional)
+
+9. 문서 자료
+
+📄 발표자료 첨부 (PDF / PPTX):
+(업로드 후 링크 추가 예정)
 
 ---
 
