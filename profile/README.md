@@ -83,6 +83,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 <img src="./assets/시스템아키텍처(CI , CD).png" width="700">
 
+<img src="./assets/시스템아키텍처(nks).png" width="700">
 ---
 
 ## 7. 팀원 소개
