@@ -63,13 +63,11 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ## 4. API 명세서
 
-<div align="center">
-  <a href="https://www.notion.so/Api-2a985bcdbd2680b2bab1db957fe89c91" 
-     style="display:inline-block;padding:10px 20px;background:#007bff;color:white;border-radius:8px;text-decoration:none;font-weight:bold;">
-     👉 API 명세서 보러가기
-  </a>
-</div>
----
+<a href="https://www.notion.so/Api-2a985bcdbd2680b2bab1db957fe89c91" 
+   style="display:inline-block;padding:10px 20px;background:#007bff;color:white;border-radius:8px;text-decoration:none;font-weight:bold;">
+   👉 API 명세서 보러가기
+</a>
+
 
 ## 5. DB 명세서 
 <img src="./assets/ERD.PNG" width="700">
