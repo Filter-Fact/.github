@@ -56,26 +56,21 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ---
 
-## 3. 기능 명세서
-문서 링크 추가 예정  
+## 3. 기능 명세서 
 <img src="./assets/기능흐름도.png" width="700">
 
 ---
 
 ## 4. API 명세서
-문서 링크 추가 예정  
-(예: Notion 또는 Swagger UI)
 
 ---
 
-## 5. DB 명세서
-ERD 이미지 파일 추가 예정  
+## 5. DB 명세서 
 <img src="./assets/ERD.PNG" width="700">
 
 ---
 
-## 6. 서비스 아키텍처
-아키텍처 다이어그램 추가 예정  
+## 6. 서비스 아키텍처 
 <img src="./assets/시스템아키텍처(어플리케이션).png" width="700">
 
 <img src="./assets/시스템아키텍처(CI , CD).png" width="700">
