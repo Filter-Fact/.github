@@ -127,15 +127,6 @@ ERD 이미지 파일 추가 예정
 
 <div align="center">
 
-### Filter&Facts  
-과대·허위 광고 없는 건강한 정보 환경을 목표로 합니다.
-
-</div>
-
----
-
-<div align="center">
-
 ### ⭐ Filter&Facts는  
 ### “과대·허위 광고 없는 건강한 정보 환경”을 목표로 합니다.
 
