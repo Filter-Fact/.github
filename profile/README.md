@@ -67,7 +67,7 @@ AI 기반의 RAG(검색증강생성) 기술과
 - JWT Access/Refresh Token 기반 인증
 
 ### ✔ 전체 서비스 자동 배포
-- GitHub Actions → Naver Cloud NKS → Docker → K8s 자동 배포
+- GitHub Actions → Naver Cloud NKS → Docker → k8s/backend-deploy.yaml 자동 배포
 
 ---
 
