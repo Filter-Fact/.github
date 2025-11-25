@@ -97,13 +97,14 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ## 8. 기술 스택
 
-| 영역                       | 기술                                                                        |
-| ------------------------ | ------------------------------------------------------------------------- |
-| Frontend             | Java, Retrofit, OkHttp, Hilt, Security Crypto, MVVM(ViewModel & LiveData) |
-| Backend              | Java 21, Spring Boot 3.5, JPA, Security, JWT, Redis, PostgreSQL           |
-| AI Server            | FastAPI, Python, Ollama, qwen2.5 모델, Hybrid Search, PostgreSQL            |
-| Database             | PostgreSQL, Redis                                                         |
-| Infra / DevOps       | Docker, Kubernetes(NKS), NCR, GitHub Actions CI/CD                        |
+| 영역                       | 기술                                                                             |
+| ------------------------ | -------------------------------------------------------------------------          |
+| Frontend             | Java, Retrofit, OkHttp, Hilt, Security Crypto, MVVM(ViewModel & LiveData)              |
+| Backend              | Java 21, Spring Boot 3.5, JPA, Security, JWT                                           |
+| AI Server            | FastAPI, Python, Ollama(qwen2.5:0.5b-instruct, nomic-embed-text),                      |
+|                      | Hybrid Search(pgvector kNN + Full Text Search + pg_trgm)                               |
+| Database             | PostgreSQL, Redis                                                                      |
+| Infra / DevOps       | Docker, Kubernetes(NKS), NCR, GitHub Actions CI/CD                                     |
 
 ---
 
