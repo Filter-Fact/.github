@@ -92,30 +92,13 @@ ERD 이미지 파일 추가 예정
 
 ## 8. 기술 스택
 
-### Android
-- Kotlin  
-- MVVM Architecture  
-- Retrofit / OkHttp  
-- Coroutine / Flow  
-- Android Jetpack  
-
-### Backend
-- Java 21  
-- Spring Boot 3  
-- Spring Security / JWT  
-- JPA / Hibernate  
-
-### Database
-- PostgreSQL  
-- Redis  
-- pgvector  
-- MFDS 데이터 정규화 파이프라인  
-
-### Infra / DevOps
-- Naver Cloud Platform (VPC, NKS, NCR)  
-- Kubernetes  
-- Docker  
-- GitHub Actions  
+| 영역                       | 기술                                                                        |
+| ------------------------ | ------------------------------------------------------------------------- |
+| Frontend(Android)    | Java, Retrofit, OkHttp, Hilt, Security Crypto, MVVM(ViewModel & LiveData) |
+| Backend(Spring Boot) | Java 21, Spring Boot 3.5, JPA, Security, JWT, Redis, PostgreSQL           |
+| AI Server            | FastAPI, Python, Ollama, qwen2.5 모델, Hybrid Search, PostgreSQL            |
+| Database             | PostgreSQL, Redis                                                         |
+| Infra / DevOps       | Docker, Kubernetes(NKS), NCR, GitHub Actions CI/CD                        |
 
 ---
 
