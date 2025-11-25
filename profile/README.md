@@ -77,7 +77,8 @@ ERD 이미지 파일 추가 예정
 ## 6. 서비스 아키텍처
 아키텍처 다이어그램 추가 예정  
 <img src="./assets/시스템아키텍처(어플리케이션).png" width="700">
-<img src="./assets/시스템아키텍처(CI, CD).png" width="700">
+
+<img src="./assets/시스템아키텍처(CI , CD).png" width="700">
 
 ---
 
@@ -104,7 +105,7 @@ ERD 이미지 파일 추가 예정
 ---
 
 ## 9. 문서 자료
-[문서 보기](./assets/F_F 제품 소개서.pdf)
+[문서 보기](./assets/F_F%20제품%20소개서.pdf)
 
 ---
 
