@@ -72,6 +72,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
    API 명세서 보러가기
 </a>
 
+---
 
 ## 5. DB 명세서 
 <img src="./assets/ERD.PNG" width="700">
@@ -85,6 +86,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 <img src="./assets/시스템아키텍처(nks).png" width="700">
 
+---
 
 ## 7. 팀원 소개
 
