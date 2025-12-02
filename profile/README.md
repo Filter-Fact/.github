@@ -79,7 +79,7 @@ Filter&Facts는 다음 방향으로 개발되었습니다.
 
 ---
 
-## 6. 서비스 아키텍처 
+## 6. 시스템 아키텍처 
 <img src="./assets/시스템아키텍처(어플리케이션).png" width="700">
 
 <img src="./assets/시스템아키텍처(CI , CD).png" width="700">
